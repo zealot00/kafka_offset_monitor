@@ -21,8 +21,8 @@ var (
 
 func main() {
 	flag.StringVar(&zklist, "zklist", "localhost:2181", "zookeeperlist")
-	flag.StringVar(&consumer, "consumer", "uic-comsumer-group-test", "consumer")
-	flag.StringVar(&topic, "topic", "uic-topic", "topic")
+	flag.StringVar(&consumer, "consumer", "comsumer-group-test", "consumer")
+	flag.StringVar(&topic, "topic", "topic", "topic")
 
 	flag.Parse()
 
